@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:stagingtrust.validatedid.com",
+    "verificationMethod": [
+      {
+        "id": "did:web:validatedid.com#key-0",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:validatedid.com",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "552b3bcfdea9f966a9af7a5b74b8e2ead350be7280452f3e6c7000d15237102d",
+          "y": "f1ec1023f7dc3ce3678884ec0270e254483f4a2b7501536927a40a8add3c1147"
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:example.com#key-0"
+    ],
+    "assertionMethod": [
+      "did:web:example.com#key-0"
+    ]
+  }
