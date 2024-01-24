@@ -1,0 +1,29 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:trust.validatedid.com:studio",
+    "verificationMethod": [
+      {
+        "id": "did:web:trust.validatedid.com:studio#key-0",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:trust.validatedid.com:studio",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "x": "aH3XPt63y-hEu4zMmjzW_L6DXU4Wqtl9kWhbUqpzFNs",
+          "y": "8DwoN5mmDuvunVzN1I_BD7WZBEdpEV9llzK-FILCu8Q",
+          "crv": "P-256"
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:trust.validatedid.com:studio#key-0"
+    ],
+    "assertionMethod": [
+      "did:web:trust.validatedid.com:studio#key-0"
+    ],
+    "keyAgreement": [
+      "did:web:trust.validatedid.com:studio#key-0"
+    ]
+  }
